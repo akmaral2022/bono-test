@@ -1,0 +1,1 @@
+export const EMAIL_REGEX = /^\S{1,}[^.,:;!?@\s]{1,2}@\S{2,}\.[a-zA-Z]{2,4}$/;
