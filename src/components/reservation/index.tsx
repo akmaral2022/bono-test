@@ -1,4 +1,5 @@
 import { ResevationForm } from './components/form'
+import { Slider } from './components/slider'
 import { SectionTitle } from './components/styled'
 import './style.css'
 export const Reservation = () => {
@@ -8,6 +9,7 @@ export const Reservation = () => {
         Бронирование столика
       </SectionTitle>
       <ResevationForm />
+      <Slider />
     </div>
   )
 }
